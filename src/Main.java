@@ -4,8 +4,10 @@
  * those commands with the HubController, then fires commands the same way
  * an app screen would when the user taps a button.
  */
-public class Main {
-    public static void main(String[] args) {
+public class Main 
+{
+    public static void main(String[] args) 
+    {
 
         // 1. Create the actual devices
         Light livingRoomLight = new Light("Living Room");
